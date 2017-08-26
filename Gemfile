@@ -56,3 +56,7 @@ gem 'kaminari'
 gem 'thor', '0.19.4'
 
 gem 'pry-byebug', group: :development
+
+group :production do
+  gem "pg"
+end
